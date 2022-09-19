@@ -3,9 +3,7 @@ import turtle
 def draw_circle(x,y,r):
     turtle.penup()
     turtle.goto(x,y)
-    turtle.pendown()
     turtle.stamp()
-    turtle.penup()
     turtle.goto(x, y-r)
     turtle.pendown()
     turtle.circle(r)
